@@ -1,0 +1,36 @@
+# Sampling — paper Section IV-D and Algorithm 1
+ddim_steps: 100
+timestep_schedule: karras
+eta: 0.0
+ensemble_size: 10
+batch_size: 10
+
+# Measurement guidance — Eq. 13
+guidance_schedule: cosine
+guidance_start: 0.3
+guidance_end: 0.0
+
+# Range-null operator — Eq. 12
+range_weight: 1.0
+null_weight: 1.0
+lpf_mode: wavelet
+lpf_wavelet: sym4
+lpf_level: 3
+lpf_kernel_size: 3
+
+# Structural prior — Eq. 10
+use_srad: true
+srad_iterations: 15
+srad_q0: 0.4
+srad_delta_t: 0.25
+
+# Log inversion and adaptive mask — Eq. 8 and Eq. 9
+db_range: 60
+linear_mask_center: 0.4
+linear_mask_steepness: 3.5
+use_otsu_gate: true
+
+# Uncertainty-guided fusion — Eq. 19 through Eq. 21
+fusion_strategy: paper
+fusion_w_min: 0.7
+fusion_w_max: 0.98

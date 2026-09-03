@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+checkpoints/
+*.pt
+outputs/
+results/
+data/
+venv/
+.venv/
+.vscode/
+node_modules/
+*.log
+
+# Claude Code local settings
+.claude/

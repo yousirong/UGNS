@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use UGNS, please cite the paper below."
+title: "UGNS: Uncertainty-Guided Null-Space Diffusion for Ultrasound Speckle Reduction"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Juneyong
+    email: diziyong@hufs.ac.kr
+    affiliation: "Department of Computer Science and Engineering, Hankuk University of Foreign Studies"
+  - family-names: Choi
+    given-names: Jaeyoung
+    email: jychoi@hufs.ac.kr
+    affiliation: "Department of Computer Science and Engineering, Hankuk University of Foreign Studies"
+repository-code: "https://github.com/yousirong/UGNS"
+license: CC-BY-4.0
+date-released: 2026-08-07
+keywords:
+  - ultrasound speckle reduction
+  - uncertainty-guided null-space diffusion
+  - adaptive range-null-space reconstruction
+  - diffusion models
+  - medical image restoration
+preferred-citation:
+  type: article
+  title: "Null-Space Diffusion Restoration with Adaptive Uncertainty-Guided Fusion for Ultrasound Speckle Reduction"
+  authors:
+    - family-names: Lee
+      given-names: Juneyong
+      affiliation: "Department of Computer Science and Engineering, Hankuk University of Foreign Studies"
+    - family-names: Choi
+      given-names: Jaeyoung
+      affiliation: "Department of Computer Science and Engineering, Hankuk University of Foreign Studies"
+  journal: "IEEE Access"
+  year: 2026

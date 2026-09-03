@@ -1,0 +1,11 @@
+torch==2.3.0
+torchvision==0.18.0
+numpy==1.26.4
+scipy==1.14.1
+matplotlib==3.9.2
+pillow
+tqdm
+h5py
+PyWavelets
+pyyaml
+tensorboard
