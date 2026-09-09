@@ -5,16 +5,17 @@
 # UGNS: Null-Space Diffusion Restoration with Adaptive Uncertainty-Guided Fusion for Ultrasound Speckle Reduction
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2608.29820"><img src="https://img.shields.io/badge/arXiv-2608.29820-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://doi.org/10.1109/ACCESS.2026.3729696"><img src="https://img.shields.io/badge/IEEE%20Access-10.1109%2FACCESS.2026.3729696-blue.svg" alt="IEEE Access"></a>
   <a href="https://github.com/yousirong/UGNS"><img src="https://img.shields.io/badge/Code-GitHub-black.svg" alt="GitHub"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0"></a>
-  <a href="#-paper"><img src="https://img.shields.io/badge/IEEE%20Access-in%20press-blue.svg" alt="IEEE Access"></a>
 </p>
 
 ## 🔥 News
 
+- **September 2, 2026**: 📚 Published in IEEE Access (Early Access) — [10.1109/ACCESS.2026.3729696](https://doi.org/10.1109/ACCESS.2026.3729696).
+- **August 30, 2026**: 📝 Preprint available on arXiv — [arXiv:2608.29820](https://arxiv.org/abs/2608.29820).
 - **August 7, 2026**: 🎉 Code released.
-
-> The publisher link and DOI will be added here once the IEEE record is public.
 
 ---
 
@@ -22,6 +23,8 @@
 
 **Null-Space Diffusion Restoration with Adaptive Uncertainty-Guided Fusion for Ultrasound Speckle Reduction**
 Juneyong Lee, Jaeyoung Choi (Member, IEEE) — IEEE Access, 2026
+
+[📄 Paper (IEEE Xplore)](https://doi.org/10.1109/ACCESS.2026.3729696) | [📝 arXiv](https://arxiv.org/abs/2608.29820) | [📥 PDF](https://arxiv.org/pdf/2608.29820)
 
 Department of Computer Science and Engineering, Hankuk University of Foreign Studies, Yongin-si 17035, Republic of Korea
 
@@ -111,17 +114,17 @@ PICMUS data are available from the official [Plane-wave Imaging Challenge in Med
 
 1. **Set the data roots** (honored by all scripts)
 
-   ```shell
+```shell
    export UGNS_DATA_ROOT=/path/to/ugns-data
    export UGNS_RESULTS_ROOT=/path/to/ugns-results
    export UGNS_MODELS_ROOT=/path/to/ugns-checkpoints
-   ```
+```
 
 2. **Prepare PICMUS exports**
 
-   ```shell
+```shell
    python preprocessing/prepare_drusvar_picmus_all_result_new.py --help
-   ```
+```
 
 ---
 
@@ -194,11 +197,16 @@ If you find this work useful, please cite it. See [`CITATION.cff`](CITATION.cff)
              Fusion for Ultrasound Speckle Reduction},
   author  = {Lee, Juneyong and Choi, Jaeyoung},
   journal = {IEEE Access},
-  year    = {2026}
+  year    = {2026},
+  doi     = {10.1109/ACCESS.2026.3729696},
+  note    = {Early Access. Preprint: arXiv:2608.29820},
+  eprint  = {2608.29820},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV}
 }
 ```
 
-Volume, issue, page, and DOI fields will be completed once the IEEE record is published.
+Volume, issue, and page fields will be completed once the final IEEE record is assigned.
 
 ---
 
